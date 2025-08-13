@@ -18,6 +18,7 @@ const Signup = () => {
     }
   };
 
+  
   return (
     <div className="center-layout">
       <div className="auth-container">
