@@ -11,6 +11,7 @@ export const addToCart = async (userId, productId) => {
   });
 };
 
+
 export const getCartItems = async (userId) => {
   const response = await axios.get(`${CART_API_URL}/user/${userId}`);
   return response.data;
