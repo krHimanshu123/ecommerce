@@ -31,6 +31,7 @@ const Computers = () => {
     navigate("/cart"); // Redirect to cart page after adding product
   };
 
+  
   return (
     <div className="product-container">
       <h2>Computers</h2>
