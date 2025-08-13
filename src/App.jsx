@@ -16,8 +16,6 @@ import Payment from './components/Payment';
 import Orders from './components/Orders';
 
 
-
-
 function App() {
   const [count, setCount] = useState(0)
   
