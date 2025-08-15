@@ -14,6 +14,7 @@ const HomePage = () => {
       setIsAuthenticated(!!localStorage.getItem("token"));
     };
 
+    
     window.addEventListener("storage", handleStorageChange);
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
