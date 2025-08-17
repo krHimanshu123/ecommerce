@@ -2,7 +2,6 @@ import React from "react";
 import { useCart } from "../context/CartContext";
 import "./style.css"
 
-
 const PaymentHistory = () => {
   const { paymentHistory } = useCart();
 
