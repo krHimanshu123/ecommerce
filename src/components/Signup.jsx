@@ -18,7 +18,6 @@ const Signup = () => {
     }
   };
 
-
   
   return (
     <div className="center-layout">
