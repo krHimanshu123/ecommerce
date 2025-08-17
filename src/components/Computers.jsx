@@ -19,6 +19,7 @@ const Computers = () => {
     fetchProducts();
   }, []);
 
+  
   const handleAddToCart = (product) => {
     const token = localStorage.getItem("token");
     if (!token) {
