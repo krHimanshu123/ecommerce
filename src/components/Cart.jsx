@@ -5,7 +5,6 @@ import "./style.css";
 
 const BASE_URL = 'http://localhost:9090/back1';
 
-
 const Cart = () => {
   const { cartItems, removeFromCart } = useCart();
   const navigate = useNavigate();
