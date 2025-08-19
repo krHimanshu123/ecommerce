@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 const BASE_URL = 'http://localhost:9090/back1';
-
 const Laptops = () => {
   const [products, setProducts] = useState([]);
   const { addToCart } = useCart();
