@@ -3,7 +3,6 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { logout } from "../services/authService";
 import { FaUserCircle } from "react-icons/fa";
 import "./style.css";
-
 const HomePage = () => {
   const navigate = useNavigate();
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
