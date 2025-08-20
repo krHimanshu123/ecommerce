@@ -17,7 +17,6 @@ const Signup = () => {
       alert("Signup failed!");
     }
   };
-
   
   return (
     <div className="center-layout">
