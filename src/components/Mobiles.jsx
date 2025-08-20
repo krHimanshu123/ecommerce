@@ -6,7 +6,6 @@ import "./style.css";
 
 const BASE_URL = 'http://localhost:9090/back1';
 
-
 const Mobiles = () => {
   const [products, setProducts] = useState([]);
   const { addToCart } = useCart();
