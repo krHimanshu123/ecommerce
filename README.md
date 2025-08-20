@@ -16,6 +16,7 @@ This repository provides a professional and minimal setup to kickstart React dev
 
 ---
 
+
 ## Getting Started
 
 ### Prerequisites
