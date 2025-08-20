@@ -4,7 +4,6 @@ import "./style.css"
 
 const PaymentHistory = () => {
   const { paymentHistory } = useCart();
-
   return (
     <div className="history-container">
       <h2>Payment History</h2>
