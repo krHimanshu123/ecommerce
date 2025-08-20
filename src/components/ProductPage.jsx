@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { getProducts } from "../services/productService";
 import { addToCart } from "../services/cartService";
 import "./style.css";
-
 const BASE_URL = 'http://localhost:9090/back1';
 
 const ProductPage = ({ category }) => {
