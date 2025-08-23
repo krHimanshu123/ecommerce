@@ -4,6 +4,7 @@ import "./style.css";
 
 import { useCart } from "../context/CartContext";
 
+
 const Payment = () => {
   const { cartItems, completePayment } = useCart();
   const navigate = useNavigate();
