@@ -18,7 +18,6 @@ const Login = () => {
     }
   };
 
-  
 
   return (
     <div className="center-layout">
