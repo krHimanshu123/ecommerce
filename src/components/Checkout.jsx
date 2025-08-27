@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { processPayment } from "../services/paymentService";
 import { useNavigate } from "react-router-dom";
 
-
 const Checkout = () => {
   const [cardNumber, setCardNumber] = useState("");
   const [cvv, setCvv] = useState("");
