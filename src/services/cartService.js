@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 // Use the correct base URL for cart operations
 const CART_API_URL = "http://localhost:9090/api/cart";
 
