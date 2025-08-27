@@ -8,7 +8,6 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  
   const handleSignup = async () => {
     try {
       await signup(username, email, password);
