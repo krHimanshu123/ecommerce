@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 const API_BASE_URL = "http://localhost:9090/api/products";  // Updated Backend API URL
 
 // Fetch products by category (computers, mobiles, laptops, pendrives, or all)
