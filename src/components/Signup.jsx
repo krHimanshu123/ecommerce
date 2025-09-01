@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { signup } from "../services/authService";
 import { useNavigate, Link } from "react-router-dom";
 
+
 const Signup = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
