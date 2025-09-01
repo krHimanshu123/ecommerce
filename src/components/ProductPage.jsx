@@ -4,6 +4,7 @@ import { addToCart } from "../services/cartService";
 import "./style.css";
 const BASE_URL = 'http://localhost:9090/back1';
 
+
 const ProductPage = ({ category }) => {
   const [products, setProducts] = useState([]);
 
