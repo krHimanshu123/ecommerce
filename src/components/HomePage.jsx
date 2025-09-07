@@ -8,7 +8,6 @@ const HomePage = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  
   useEffect(() => {
     const handleStorageChange = () => {
       setIsAuthenticated(!!localStorage.getItem("token"));
