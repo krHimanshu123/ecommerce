@@ -29,6 +29,7 @@ const Cart = () => {
               <button onClick={() => removeFromCart(item.id)}>Remove</button>
             </div>
           ))}
+          
           <button onClick={handleCheckout}>Proceed to Checkout</button>
         </>
       )}
