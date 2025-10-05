@@ -20,7 +20,6 @@ const AboutUs = () => {
           <p>Find the best computers for gaming, work, and personal use.</p>
         </div>
         </Link>
-
         <Link to="/mobiles">
         <div className="about-item">
           <img src="mobiles.jpeg" alt="Mobiles" />
