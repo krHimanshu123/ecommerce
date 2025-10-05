@@ -32,7 +32,6 @@ const Computers = () => {
   };
 
   
-  
   return (
     <div className="product-container">
       <h2>Computers</h2>
