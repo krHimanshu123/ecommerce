@@ -25,6 +25,7 @@ This repository provides a professional and minimal setup to kickstart React dev
 - [Node.js](https://nodejs.org/) (version 16 or higher recommended)
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
+
 ### Installation
 
 1. **Clone the repository:**
