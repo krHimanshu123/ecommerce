@@ -25,6 +25,7 @@ const Checkout = () => {
       <button onClick={handlePayment}>Pay Now</button>
     </div>
   );
+  
 };
 
 export default Checkout;
