@@ -12,6 +12,7 @@ const AboutUs = () => {
         We specialize in high-quality products, including computers, mobiles, laptops, and accessories.
       </p>
 
+      
       <div className="about-grid">
       <Link to="/computers">
         <div className="about-item">        
