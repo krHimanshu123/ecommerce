@@ -43,6 +43,7 @@ const Mobiles = () => {
         ) : (
           <p>No mobiles available.</p>
         )}
+        
       </div>
     </div>
   );
