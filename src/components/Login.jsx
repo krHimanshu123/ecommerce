@@ -17,7 +17,6 @@ const Login = () => {
     }
   };
 
-
   return (
     <div className="center-layout">
       <div className="auth-container">
@@ -29,6 +28,7 @@ const Login = () => {
       </div>
     </div>
   );
+  
 };
 
 export default Login;
