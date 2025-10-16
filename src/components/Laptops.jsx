@@ -15,6 +15,7 @@ const Laptops = () => {
       const data = await getProducts("laptops"); // Fetch only laptop category
       setProducts(data);
     };
+    
     fetchProducts();
   }, []);
 
@@ -22,8 +23,6 @@ const Laptops = () => {
     addToCart(product);
     navigate("/cart"); // Redirect to cart page after adding product
   };
-
-  
   return (
     <div className="product-container">
       <h2>Laptops</h2>
