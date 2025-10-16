@@ -31,7 +31,6 @@ const Computers = () => {
     navigate("/cart"); // Redirect to cart page after adding product
   };
 
-  
   return (
     <div className="product-container">
       <h2>Computers</h2>
@@ -53,9 +52,10 @@ const Computers = () => {
         ) : (
           <p>No computers available.</p>
         )}
+        
       </div>
     </div>
   );
+  
 };
-
 export default Computers;
