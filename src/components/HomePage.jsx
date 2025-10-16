@@ -18,6 +18,7 @@ const HomePage = () => {
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
+  
   const handleLogout = () => {
     logout();
     setIsAuthenticated(false);
